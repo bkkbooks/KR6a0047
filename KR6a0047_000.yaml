@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6a0047/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 離睡經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0047.xml
+    old_id: T01n0047
+hash: sha256:403dc58b82fa935eb9a2f1ee3fcdb5ce66b6d3b27274c4367635f65209667e41

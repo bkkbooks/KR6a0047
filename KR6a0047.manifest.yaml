@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6a0047/v1
+canonical_location: https://kanripo.org/bkk/KR6a0047/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 離睡經
+  identifiers:
+    alt_id:
+    - T01n0047
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0047.xml
+    old_id: T01n0047
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0047_000.yaml, hash: 'sha256:403dc58b82fa935eb9a2f1ee3fcdb5ce66b6d3b27274c4367635f65209667e41'}
+  - {seq: 1, filename: KR6a0047_001.yaml, hash: 'sha256:ff91232f87bea26abdd48b577890ab70f8ac3cbb11cf0eeffc3521700f2f74fc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0047_001.markers.yaml, hash: 'sha256:3230b6a1a69d3be0b168cf035ce408c24da0ed16d7a705e936c4dc0b1e7e68f4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0047_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1092
+  label: 佛說離睡經
+  type: juan
+  level: 1
+hash: sha256:6579f0935a1c0c438a57e00b1f10d2a22ec489974677e46d4429ffa0f1d48240
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
