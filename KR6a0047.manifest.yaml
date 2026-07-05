@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0047_000.yaml, hash: 'sha256:403dc58b82fa935eb9a2f1ee3fcdb5ce66b6d3b27274c4367635f65209667e41'}
-  - {seq: 1, filename: KR6a0047_001.yaml, hash: 'sha256:ff91232f87bea26abdd48b577890ab70f8ac3cbb11cf0eeffc3521700f2f74fc'}
+  - {seq: 1, filename: KR6a0047_001.yaml, hash: 'sha256:8dac8d235cd8553b2335f529d582680829dbc3cc3123455834786463992289ab'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0047_001.markers.yaml, hash: 'sha256:3230b6a1a69d3be0b168cf035ce408c24da0ed16d7a705e936c4dc0b1e7e68f4'}
+  - {seq: 0, role: markers, filename: assets/KR6a0047_000.markers.yaml, hash: 'sha256:104f3fc758b76e413c356ef719d75749e232ecaabecabd86288f2b3dc5997033'}
+  - {seq: 1, role: markers, filename: assets/KR6a0047_001.markers.yaml, hash: 'sha256:ac55f149cf8524fdab4a72a55a972eaf285ce93d73fd48126d52757ba01f3ae8'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 佛說離睡經
   type: juan
   level: 1
-hash: sha256:6579f0935a1c0c438a57e00b1f10d2a22ec489974677e46d4429ffa0f1d48240
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:1663e6f725070e3e5f815b185e1dee69662cdbea613f32465b552648f472cd4b
