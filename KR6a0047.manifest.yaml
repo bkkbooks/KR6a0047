@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0047/v1
 canonical_location: https://kanripo.org/bkk/KR6a0047/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 離睡經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0047_000.yaml, hash: 'sha256:403dc58b82fa935eb9a2f1ee3fcdb5ce66b6d3b27274c4367635f65209667e41'}
-  - {seq: 1, filename: KR6a0047_001.yaml, hash: 'sha256:8dac8d235cd8553b2335f529d582680829dbc3cc3123455834786463992289ab'}
+  - {seq: 1, filename: KR6a0047_001.yaml, hash: 'sha256:5e0f8cd5afb46353262705268a4ad6861719579d76277b6820b04f8f17846c21'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0047_000.markers.yaml, hash: 'sha256:104f3fc758b76e413c356ef719d75749e232ecaabecabd86288f2b3dc5997033'}
-  - {seq: 1, role: markers, filename: assets/KR6a0047_001.markers.yaml, hash: 'sha256:ac55f149cf8524fdab4a72a55a972eaf285ce93d73fd48126d52757ba01f3ae8'}
+  - {seq: 1, role: markers, filename: assets/KR6a0047_001.markers.yaml, hash: 'sha256:2f5f8e80539039d3eb17abb0cd061da7d67ea753898a4eaecc21674c24e60462'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 佛說離睡經
   type: juan
   level: 1
-hash: sha256:1663e6f725070e3e5f815b185e1dee69662cdbea613f32465b552648f472cd4b
+hash: sha256:eedd069d564ded14b1bbb9965bcd3153782d40e1c77e3717b5e921eed60fc53d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
